@@ -1,0 +1,7 @@
+---
+src/main.c:
+- TEST
+build/test/mocks/mock_led.c:
+- TEST
+src/led.c:
+- TEST
