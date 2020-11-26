@@ -7,7 +7,7 @@
 
 void test_main_should_initializeLED(void){
 
-    led_init_Expect();
+    led_init_CMockExpectAndReturn(7, 0);
 
     UnityAssertEqualNumber((UNITY_INT)((0)), (UNITY_INT)((TestableMain())), (
 
